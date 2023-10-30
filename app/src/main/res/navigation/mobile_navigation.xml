@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/camaraFragment">
+    <fragment
+        android:id="@+id/camaraFragment"
+        android:name="pe.edu.idat.appbuttomnavigation.CamaraFragment"
+        android:label="fragment_camara"
+        tools:layout="@layout/fragment_camara" />
+    <fragment
+        android:id="@+id/carritoFragment"
+        android:name="pe.edu.idat.appbuttomnavigation.CarritoFragment"
+        android:label="fragment_carrito"
+        tools:layout="@layout/fragment_carrito" />
+    <fragment
+        android:id="@+id/personaFragment"
+        android:name="pe.edu.idat.appbuttomnavigation.PersonaFragment"
+        android:label="fragment_persona"
+        tools:layout="@layout/fragment_persona" />
+    <fragment
+        android:id="@+id/otherFragment"
+        android:name="pe.edu.idat.appbuttomnavigation.OtherFragment"
+        android:label="fragment_other"
+        tools:layout="@layout/fragment_other" />
+</navigation>

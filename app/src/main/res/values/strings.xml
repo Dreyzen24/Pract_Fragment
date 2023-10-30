@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AppButtomNavigation</string>
+    <string name="title_home">Camara</string>
+    <string name="title_dashboard">Persona</string>
+    <string name="title_notifications">Carrito</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
